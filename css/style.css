@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 16, 2016, 3:45:35 PM
+    Author     : shreyas.j
+*/
+input,select,textarea{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+label {
+    clear: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: left;
+    width: 100px;
+}
+textarea,label,select{float:left;}
+
+.logo{
+    height: 80px;
+    border: 1px dotted #000;
+}
+.container {
+    border: 1px solid #000;
+    height: auto;
+    margin: 100px auto;
+    padding: 20px;
+    width: 550px;
+}
+.formfield{
+    vertical-align: middle;
+}
+textarea {
+    vertical-align: middle;
+}
+
+#error{
+    color: #F00;
+}
+#list{
+     border-collapse: collapse;
+     margin-top: 20px;
+}
+#list td{
+    border: 1px solid #333;
+     padding: 15px;
+     text-align: left;
+}
+tr:nth-child(even) {background-color: #d4d4d4}
+.heading{
+    width: 200px;
+}
+span {
+    float: right;
+}
